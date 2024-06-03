@@ -228,7 +228,7 @@ dependencies = [
  "anyhow",
  "async-trait",
  "attestation_agent",
- "base64 0.21.4",
+ "base64 0.21.7",
  "cfg-if",
  "clap 4.2.7",
  "const_format",
@@ -272,7 +272,7 @@ dependencies = [
  "anyhow",
  "async-trait",
  "az-snp-vtpm",
- "base64 0.21.4",
+ "base64 0.21.7",
  "codicon",
  "csv-rs",
  "hyper",
@@ -283,7 +283,7 @@ dependencies = [
  "occlum_dcap",
  "serde",
  "serde_json",
- "sev 1.2.1",
+ "sev 3.1.1",
  "strum",
  "tdx-attest-rs",
  "tokio",
@@ -406,9 +406,9 @@ checksum = "9e1b586273c5702936fe7b7d6896644d8be71e6314cfe09d3167c95f712589e8"
 
 [[package]]
 name = "base64"
-version = "0.21.4"
+version = "0.21.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9ba43ea6f343b788c8764558649e08df62f86c6ef251fdaeb1ffd010a9ae50a2"
+checksum = "9d297deb1925b89f2ccc13d7635fa0714f12c87adce1c75356b39ca9b7178567"
 
 [[package]]
 name = "base64-serde"
@@ -416,7 +416,7 @@ version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ba368df5de76a5bea49aaf0cf1b39ccfbbef176924d1ba5db3e4135216cbe3c7"
 dependencies = [
- "base64 0.21.4",
+ "base64 0.21.7",
  "serde",
 ]
 
@@ -830,7 +830,7 @@ version = "0.1.0"
 dependencies = [
  "aes-gcm",
  "anyhow",
- "base64 0.21.4",
+ "base64 0.21.7",
  "clap 4.2.7",
  "ctr",
  "env_logger 0.10.0",
@@ -879,7 +879,7 @@ version = "0.1.0"
 dependencies = [
  "anyhow",
  "async-trait",
- "base64 0.21.4",
+ "base64 0.21.7",
  "clap 4.2.7",
  "kms",
  "lazy_static",
@@ -1079,7 +1079,7 @@ version = "0.1.0"
 dependencies = [
  "aes-gcm",
  "anyhow",
- "base64 0.21.4",
+ "base64 0.21.7",
  "ctr",
  "kbs-types",
  "openssl",
@@ -2450,7 +2450,7 @@ dependencies = [
  "async-compression",
  "async-trait",
  "attestation_agent",
- "base64 0.21.4",
+ "base64 0.21.7",
  "cfg-if",
  "devicemapper",
  "dircpy",
@@ -2620,7 +2620,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "33a96c4f2128a6f44ecf7c36df2b03dddf5a07b060a4d5ebc0a81e9821f7c60e"
 dependencies = [
  "anyhow",
- "base64 0.21.4",
+ "base64 0.21.7",
  "flate2",
  "once_cell",
  "openssl",
@@ -2728,7 +2728,7 @@ version = "0.1.0"
 dependencies = [
  "anyhow",
  "async-trait",
- "base64 0.21.4",
+ "base64 0.21.7",
  "bincode",
  "crypto",
  "foreign-types 0.5.0",
@@ -2765,7 +2765,7 @@ dependencies = [
  "anyhow",
  "async-trait",
  "attester",
- "base64 0.21.4",
+ "base64 0.21.7",
  "crypto",
  "jwt-simple",
  "kbs-types",
@@ -2803,7 +2803,7 @@ version = "0.1.0"
 dependencies = [
  "anyhow",
  "async-trait",
- "base64 0.21.4",
+ "base64 0.21.7",
  "bincode",
  "chrono",
  "const_format",
@@ -2898,9 +2898,9 @@ checksum = "830d08ce1d1d941e6b30645f1a0eb5643013d835ce3779a5fc208261dbe10f55"
 
 [[package]]
 name = "libc"
-version = "0.2.147"
+version = "0.2.155"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b4668fb0ea861c1df094127ac5f1da3409a82116a4ba74fca2e58ef927159bb3"
+checksum = "97b3888a4aecf77e811145cadf6eef5901f4782c53886191b2f693f24761847c"
 
 [[package]]
 name = "libgit2-sys"
@@ -3350,7 +3350,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "4023f15303dbbda47797d07e9acd2045862ce82c7e28cd66f70b09bda5584cbb"
 dependencies = [
  "arc-swap",
- "base64 0.21.4",
+ "base64 0.21.7",
  "bitflags 1.3.2",
  "fuse-backend-rs",
  "hex",
@@ -3469,7 +3469,7 @@ dependencies = [
  "anyhow",
  "async-trait",
  "attestation_agent",
- "base64 0.21.4",
+ "base64 0.21.7",
  "base64-serde",
  "cfg-if",
  "ctr",
@@ -4496,7 +4496,7 @@ version = "0.11.20"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3e9ad3fe7488d7e34558a2033d45a0c90b72d97b4f80705666fea71472e2e6a1"
 dependencies = [
- "base64 0.21.4",
+ "base64 0.21.7",
  "bytes",
  "cookie",
  "cookie_store",
@@ -4790,7 +4790,7 @@ version = "1.0.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "2d3987094b1d07b653b7dfdc3f70ce9a1da9c51ac18c1b06b662e4f9a0e9f4b2"
 dependencies = [
- "base64 0.21.4",
+ "base64 0.21.7",
 ]
 
 [[package]]
@@ -4911,7 +4911,7 @@ version = "0.1.0"
 dependencies = [
  "assert-json-diff",
  "async-trait",
- "base64 0.21.4",
+ "base64 0.21.7",
  "clap 4.2.7",
  "crypto",
  "kms",
@@ -4980,7 +4980,7 @@ checksum = "30efff3f9930e85b4284e76bbdad741f36412dfb1e370efd0de5866ae1a11dfc"
 dependencies = [
  "aes",
  "anyhow",
- "base64 0.21.4",
+ "base64 0.21.7",
  "block-padding",
  "blowfish",
  "buffered-reader",
@@ -5213,6 +5213,30 @@ dependencies = [
 ]
 
 [[package]]
+name = "sev"
+version = "3.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b2890179f8ef689340f441ba05f0b268bc14f672ae4b36d629cc2266d0d747ab"
+dependencies = [
+ "base64 0.21.7",
+ "bincode",
+ "bitfield",
+ "bitflags 1.3.2",
+ "byteorder",
+ "codicon",
+ "dirs",
+ "hex",
+ "iocuddle",
+ "lazy_static",
+ "libc",
+ "serde",
+ "serde-big-array",
+ "serde_bytes",
+ "static_assertions",
+ "uuid",
+]
+
+[[package]]
 name = "sgx_types"
 version = "1.1.5"
 source = "git+https://github.com/occlum/occlum?tag=v0.29.7#b5a32a8d8a81de2458c2b0d06b07ddce6fd10a44"
@@ -5337,7 +5361,7 @@ version = "0.6.0"
 source = "git+https://github.com/sigstore/sigstore-rs.git?rev=69e8f33#69e8f3310e5ecff7dbe15ae6b45e2edf091aa4db"
 dependencies = [
  "async-trait",
- "base64 0.21.4",
+ "base64 0.21.7",
  "cfg-if",
  "chrono",
  "const-oid 0.9.5",
@@ -5893,7 +5917,7 @@ checksum = "3082666a3a6433f7f511c7192923fa1fe07c69332d3c6a2e6bb040b569199d5a"
 dependencies = [
  "async-trait",
  "axum",
- "base64 0.21.4",
+ "base64 0.21.7",
  "bytes",
  "futures-core",
  "futures-util",
@@ -6193,7 +6217,7 @@ version = "2.7.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0b11c96ac7ee530603dcdf68ed1557050f374ce55a5a07193ebf8cbc9f8927e9"
 dependencies = [
- "base64 0.21.4",
+ "base64 0.21.7",
  "log",
  "once_cell",
  "serde",
@@ -6244,9 +6268,9 @@ dependencies = [
 
 [[package]]
 name = "uuid"
-version = "1.4.1"
+version = "1.8.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "79daa5ed5740825c40b389c5e50312b9c86df53fccd33f281df655642b43869d"
+checksum = "a183cf7feeba97b4dd1c0d46788634f6221d87fa961b305bed08c851829efcc0"
 dependencies = [
  "getrandom 0.2.10",
  "rand 0.8.5",
